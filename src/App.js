@@ -1,15 +1,13 @@
+import  Header from './components/Header.js'
+import GuideBar from './components/GuideBar.js';
+import CheckItemList from './components/CheckItemList.js';
 
 function App() {
   return (
-    <div className="App">
-      
-        <a
-          href="https://reactjs.org"
-        
-        >
-          Learn React
-        </a>
-
+    <div>
+      <Header />
+      <GuideBar />
+      <CheckItemList />
     </div>
   );
 }
